@@ -95,8 +95,8 @@ $ git config --global user.email email@domain.tld
 Isian di atas harus disesuaikan dengan nama serta email yang digunakan untuk mendaftar di GitHub. Untuk melihat konfigurasi yang sudah ada:
 ```
 $ git config --list
-user.email=phylossophie@gmail.com
-user.name=Bambang Purnomosidi D. P.
+user.email=kareemsyukur@gmail.com
+user.name=kareeems
 color.ui=true
 $
 ```
