@@ -1,65 +1,159 @@
-# CLOUD COMPUTING
-Cloud computing atau komputasi awan adalah gabungan pemanfaatan teknologi komputer (komputasi) dan pengembangan berbasis  Internet. Yaitu adalah suatu metoda komputasi di mana kapabilitas terkait teknologi informasi disajikan sebagai suatu layanan (as a service), sehingga pengguna dapat mengaksesnya lewat Internet (di dalam awan) tanpa mengetahui apa yang ada didalamnya, ahli dengannya, atau memiliki kendali terhadap infrastruktur teknologi yang membantunya. Komputasi awan adalah suatu konsep umum yang mencakup SaaS, Web 2.0, dan tren teknologi terbaru lain yang dikenal luas, dengan tema umum berupa ketergantungan terhadap Internet untuk memberikan kebutuhan komputasi pengguna. Sebagai contoh, Google Apps menyediakan aplikasi bisnis umum secara daring yang diakses melalui suatu penjelajah web dengan perangkat lunak dan data yang tersimpan di server. Komputasi awan saat ini merupakan trend teknologi terbaru, dan contoh bentuk pengembangan dari teknologi Cloud Computing ini adalah iCloud.
+# Iaas, SaaS, dan PaaS
 
-## Sejarah
+## Perbedaan antara IaaS, SaaS, dan Paas
 
-Pada tahun 50-an, Cloud Computing memiliki konsep yang mendasar. Ketika komputer mainframe yang tersedia dalam skala yang besar dalam dunia pendidikan dan perusahaan dapat diakses melalui komputer terminal disebut dengan Terminal statis. Hingga pertengahan tahun 70-an dikenal dengan RJE remote prosess Entry Home Job yang berkaitan besar dengan IBM dan DEC Mainframe.
+![image-01.jpg](https://github.com/kareeems/tekn-cloud-computing/blob/main/minggu-02/image-01.jpg)
 
-Tahun 60-an, John McCarty berpendapat bahwa “Perhitungan suatu hari nanti dapat diatur sebagai utilitas publik.” Di buku Douglas Parkhill, The Challenge of the Computer Utility menunjukkan perbandingan industri listrik dan penggunaan pada listrik di masyarakat umum dan pemerintahan dalam penyediaan cloud computing.
+dari gambar di atas digambarkan
 
-Tahun 90-an, perusahaan telekomunikasi mulai menawarkan VPN layanan jaringan pribadi dengan kualitas sebanding pelayanannya, tapi dengan biaya yang lebih rendah. Karena merasa cocok dengan hal tersebut untuk menyeimbangkan penggunaan server, mereka dapat menggunakan bandwidth jaringan secara keseluruhan. Lalu menggunakan simbol awan sebagai penunjuk titik demarkasi antara penyedia dan pengguna yang saling bertanggung jawab.
+1. Dalam kasus dibuat di rumah, itu berarti lingkungan di tempat Anda di mana Anda mengelola semuanya yaitu Anda membuat keju, topping, adonan pizza Anda sendiri, Anda memiliki oven sendiri, gas dll dan Anda membuat semuanya sendiri dan makan di rumah. Anda mengontrol seberapa baik (atau buruk) pizza Anda
+   
+2. Dalam hal IaaS, Anda membeli bahan mentah (yaitu lingkungan komputasi, disk penyimpanan, OS Anda, dll.) dari Penyedia Layanan Cloud Anda. Infrastruktur akan diberikan kepada Anda oleh Penyedia Cloud dan Anda tidak akan memiliki kendali penuh atasnya (Anda tidak akan tahu di mana tepatnya server Anda, di mana disk Anda, dll). Tetapi Anda mengontrol tentang bagaimana penambalan dilakukan pada OS Anda, beban kerja apa yang Anda miliki di lingkungan Anda, dll
+   
+3. Di PaaS, Anda membeli pizza di luar dan memakannya di rumah - yaitu Anda tidak perlu khawatir tentang cara mengontrol konfigurasi database, loadbalancer, dll. Mereka disediakan untuk Anda sebagai layanan terkelola oleh penyedia layanan cloud Anda. Tugas-tugas seperti back up database dll dapat didorong ke akhir penyedia layanan dan Anda hanya dapat berkonsentrasi pada membangun dan menyebarkan aplikasi Anda. Tingkat sumber daya yang Anda kendalikan berkurang
 
-Sejak Tahun 2000, Amazon sebagai peran penting dalam semua pengembangan cloud computing dengan memodernisasi pusat data, seperti jaringan komputer yang menggunakan paling sedikit 10% dari kapasitas mereka pada satu waktu. Kemudian Amazon mulai mengembangkan produk baru sebagai penyedia cloud computing untuk pelanggan eksternal dan meluncurkan Amazon Web Service (AWS) tahun 2006.
+4. Dalam model SaaS, sebagian besar layanan dikelola oleh penyedia layanan Anda dan jumlah konfigurasi atau pengaturan di pihak Anda minimal.
 
-Awal tahun 2008, Eucalypus menjadi yang pertama open source, AWS API Platform yang kompatibel menyebarkan awan swasta. Pada tahun yang sama, agar difokuskan pada penyediaan jaminan kualitas layanan (seperti yang dipersyaratkan oleh aplikasi interaktif real-time) untuk infrastruktur berbasis cloud dalam rangka IRMOS Eropa Proyek yang didanai Komisi. Pertengahan 2008, Gartner melihat kesempatan untuk membentuk hubungan antara konsumen layanan TI, mereka menggunakan layanan TI dan menjualnya.
+5. Jumlah kontrol yang Anda miliki pada sumber daya cloud Anda terus berkurang saat Anda bergerak ke kanan dalam diagram (Kontrol tertinggi pada IaaS hingga kontrol terendah pada SaaS)
 
-Tanggal 1 Maret 2011,IBM mengumumkan SmartCloud kerangka IBM Smarter Planet. Di antara berbagai komponen dasar Smarter Computing, cloud computing adalah bagian yang paling penting.
+## SaaS
+Perangkat lunak sebagai layanan adalah lisensi perangkat lunak dan model pengiriman di mana perangkat lunak dilisensikan secara berlangganan dan di-host secara terpusat. Pengguna dapat mengaksesnya dengan bantuan browser web.
 
-## Manfaat komputasi awan
+SaaS adalah model pengiriman umum untuk banyak aplikasi bisnis, termasuk perangkat lunak perkantoran dan perpesanan, perangkat lunak manajemen, virtualisasi, dll. Ini adalah bagian dari nomenklatur komputasi awan, bersama dengan infrastruktur sebagai layanan (IaaS), platform sebagai layanan (PaaS) , desktop sebagai layanan (DaaS).
 
-Dari penjelasan tentang cloud computing diatas, ada banyak manfaat yang bisa kita ambil dari cloud computing, yaitu:
+Penyedia SaaS menghosting aplikasi dan data secara terpusat — menyebarkan tambalan. Mereka meningkatkan ke aplikasi secara transparan, memberikan akses ke pengguna akhir melalui Internet. 
 
-•	Skalabilitas, yaitu dengan cloud computing kita bisa menambah kapasitas penyimpanan data kita tanpa harus membeli peralatan tambahan, misalnya hardisk dll. Kita cukup menambah kapasitas yang disediakan oleh penyedia layanan cloud computing.
+### Arsitektur SAAS:
 
-•	Aksesibilitas, yaitu kita bisa mengakses data kapanpun dan dimanapun kita berada, asal kita terkoneksi dengan internet, sehingga memudahkan kita mengakses data disaat yang penting.
+Dengan model ini, satu versi aplikasi, dengan konfigurasi tunggal digunakan untuk semua pelanggan. Aplikasi diinstal pada beberapa mesin untuk mendukung skalabilitas (disebut penskalaan horizontal).
 
-•	Keamanan, yaitu data kita bisa terjamin keamanan nya oleh penyedia layanan cloud computing, sehingga bagi perusahaan yang berbasis IT, data bisa disimpan secara aman di penyedia cloud computing. Itu juga mengurangi biaya yang diperlukan untuk mengamankan data perusahaan.
+Ada dua jenis utama SaaS:
 
-•	Kreasi, yaitu para user bisa melakukan/mengembangkan kreasi atau project mereka tanpa harus mengirimkan project mereka secara langsung ke perusahaan, tapi user bisa mengirimkan nya lewat penyedia layanan cloud computing.
+* SaaS Vertikal
+  
+    Perangkat Lunak yang menjawab kebutuhan industri tertentu (misalnya, perangkat lunak untuk perawatan kesehatan, pertanian, real estat, industri keuangan)
 
-•	Kecemasan, ketika terjadi bencana alam data milik kita tersimpan aman di cloud meskipun hardisk atau gadget kita rusak
+* SaaS Horisontal
+  
+    Produk yang berfokus pada kategori perangkat lunak (pemasaran, penjualan, alat pengembang, SDM) tetapi agnostik industri.
 
-## Layanan komputasi awan
+### Manfaat SAAS:
 
-•	Infrastructure as a Service (IaaS)
+Ini menawarkan peluang besar bagi organisasi dari semua ukuran untuk mengalihkan risiko akuisisi perangkat lunak, dan untuk memindahkan TI dari pusat biaya reaktif menjadi bagian perusahaan yang proaktif dan menghasilkan nilai.
 
-•	Platform as a Service (PaaS)
+Integrasi dapat direncanakan dan dilaksanakan dengan sedikit usaha, menciptakan salah satu interval waktu-ke-nilai sesingkat mungkin untuk investasi TI besar.
 
-•	Software as a Service (SaaS)
+Setelah Anda membuat keputusan untuk mengejar SaaS, langkah selanjutnya adalah mempersiapkan transisi dengan menilai bagaimana penerapan akan memengaruhi aset TI yang ada.
+Menambahkan SaaS dapat menyebabkan perubahan mendasar dalam peran departemen TI sebagai penyedia layanan informasi.
 
-## Metoda dan implementasi komputasi awan
+Perusahaan sebaiknya mempertimbangkan fleksibilitas dan implikasi manajemen risiko dari penambahan SaaS ke portofolio layanan TI mereka. Integrasi dan komposisi adalah komponen penting dalam strategi arsitektur Anda untuk menggabungkan SaaS dengan sukses sebagai anggota yang berpartisipasi penuh dari infrastruktur TI Anda yang berpusat pada layanan.
 
-Berikut merupakan cara kerja penyimpanan data dan replikasi data pada pemanfaatan teknologi cloud computing. Dengan Cloud Computing komputer lokal tidak lagi harus menjalankan pekerjaan komputasi berat untuk menjalankan aplikasi yang dibutuhkan, tidak perlu menginstal sebuah paket perangkat lunak untuk setiap komputer, kita hanya melakukan installasi operating system pada satu aplikasi. Jaringan komputer yang membentuk awan (internet) menangani mereka sebagai gantinya. Server ini yang akan menjalankan semua aplikasi mulai dari E-mail, Pengolah kata, sampai program analisis data yang kompleks. Ketika pengguna mengakses awan (internet) untuk sebuah website populer, banyak hal yang bisa terjadi. Pengguna Internet Protokol (IP) misalnya dapat digunakan untuk menetapkan dimana pengguna berada (geolocation). Domain Name System (DNS) jasa kemudian dapat mengarahkan pengguna ke sebuah cluster server yang dekat dengan pengguna sehingga situs bisa diakses dengan cepat dan dalam bahasa lokal mereka. Pengguna tidak login ke server, tetapi mereka login ke layanan mereka menggunakan id sesi atau cookie yang telah didapatkan yang disimpan dalam browser mereka. Apa yang user lihat pada browser biasanya datang dari web server. Webservers menjalankan perangkat lunak dan menyajikan pengguna dengan cara interface yang digunakan untuk mengumpulkan perintah atau instruksi dari pengguna (klik, mengetik, upload dan lain-lain) Perintah-perintah ini kemudian diinterpretasikan oleh webservers atau diproses oleh server aplikasi. Informasi kemudian disimpan pada atau diambil dari database server atau file server dan pengguna kemudian disajikan dengan halaman yang telah diperbarui. Data di beberapa server disinkronisasikan di seluruh dunia untuk akses global cepat dan juga untuk mencegah kehilangan data.
+### Arsitektur Perangkat Lunak sebagai Layanan SaaS
 
-## Implementasi komputasi awan
+Pengiriman perangkat lunak telah berubah selama bertahun-tahun. Secara historis, aplikasi ditulis untuk mainframe dalam bahasa seperti COBOL. Didukung oleh komputasi awan, konsumen dan bisnis dapat menggunakan layanan melalui web hanya dengan beberapa klik mouse. SaaS lahir – Perangkat Lunak sebagai Layanan.
 
-Ada tiga poin utama yang diperlukan dalam implementasi cloud computing, yaitu:
-•	Computer front end
+Apa Itu Platform Arsitektur SaaS?
 
-•	Computer back end
+SaaS adalah cara untuk memberikan perangkat lunak, penyedia perangkat lunak secara terpusat menghosting satu atau lebih aplikasi dan membuatnya tersedia untuk pelanggan melalui internet. Arsitektur SaaS juga merupakan salah satu pilar utama komputasi awan. 
 
-•	Penghubung antara keduanya
+berikut adalah termasuk model SaaS:
 
-## Masalah yang dihadapi
+* Infrastruktur sebagai Layanan
+* Platform sebagai Layanan
+* Pembelajaran Mesin sebagai Layanan
+* …dan banyak lagi!
+  
+###  Alasan Menggunakan Arsitektur SaaS
 
-Dunia komputasi awan merupakan dunia baru karena tidak semua orang mengetahui teknologi baru tersebut. Karena masih baru tersebut muncul beberapa masalah dalam pengenalannya ke dunia luar. Contohnya komputasi awan merupakan sarana penyimpanan data melalui jaringan internet maka internet wajib bagi pemakai komputasi awan apabila terjadi masalah dalam internet maka akan menyebabkan komputer tersebut menjadi lambat karena proses yang terlalu lama
-Contoh komputasi awan
+#### KONSUMEN
+Dari sudut pandang konsumen, aplikasi SaaS adalah salah satu cara termudah dan paling dapat diandalkan untuk menggunakan layanan atau produk digital. Anda cukup mengaksesnya melalui web, membayar layanan, dan menggunakannya.
 
-•	Google Drive
+Dalam beberapa tahun terakhir kami telah melihat munculnya ribuan layanan aplikasi SaaS yang ditargetkan untuk konsumen seperti:
 
-Google Drive adalah layanan penyimpanan Online yang dimiliki Google. Google Drive diluncurkan pada tanggal 24 April 2012. 
+* Netflix
+* Microsoft Office 365
+* Amazon Perdana
+* Twitter
+* Facebook
+* Google Dokumen
+* Tenaga penjualan
 
-•	Windows Azure
+Pendekatan swalayan ini memungkinkan pengguna untuk bangun dan berjalan dengan cepat.
 
-Windows Azure adalah sistem operasi yang berbasis komputasi awan, dibuat oleh Microsoft untuk mengembangkan dan mengatur aplikasi serta melayani sebuah jaringan global dari Microsoft Data Centers. Windows Azure yang mendukung berbagai macam bahasa dan alat pemrograman. Sistem operasi ini dirilis pada 1 Februari 2010.
+#### BISNIS
+Dari perspektif bisnis, produk perangkat lunak yang disampaikan “sebagai layanan” memungkinkan bisnis menawarkan produk mereka dalam skala besar, secara global, sementara juga memungkinkan mereka untuk mempertahankan kontrol keseluruhan atas produk mereka. 
+
+Beberapa manfaat lain dari penerapan arsitektur SaaS dalam bisnis termasuk, namun tidak terbatas pada:
+
+* Mengurangi waktu ke pasar;
+* Biaya perawatan yang lebih rendah;
+* Peningkatan otomatisasi;
+* Upgrade lebih mudah;
+* Lebih hemat biaya;
+  
+Uji coba instans tunggal dapat dilakukan karena perusahaan tidak perlu menghabiskan banyak sumber daya keuangan untuk mencoba perangkat lunak.
+
+Bisnis dapat dengan mudah mengintegrasikan komponen SaaS ini ke dalam aplikasi mereka yang ada dan menambah fungsionalitas yang mereka tawarkan kepada pelanggan mereka.
+
+### Fitur Utama Dan Manfaat Platform Arsitektur SaaS
+1. KESEDERHANAAN APLIKASI ARSITEKTUR SAAS
+   
+    Aplikasi perangkat lunak yang dirancang sebagai solusi SaaS biasanya diakses melalui web melalui berbagai jenis perangkat.
+
+2. NILAI EKONOMIS
+    Model pembayaran biaya berlangganan bulanan atau tahunan memudahkan bisnis untuk menganggarkan, memasangkan ini dengan nol biaya penyiapan infrastruktur, dan mudah untuk melihat bagaimana memilih untuk menggunakan solusi SaaS dapat menghemat uang bisnis.
+
+3. KEAMANAN
+    Keamanan adalah aspek penting dari solusi pengembangan perangkat lunak dan platform SaaS tidak berbeda. Sebagai konsumen aplikasi yang dirancang menggunakan SaaS, Anda tidak perlu khawatir dengan bagaimana data Anda dikunci. Itu disimpan dengan aman di cloud!
+
+4. KESESUAIAN
+    Dengan instalasi perangkat lunak tradisional, pembaruan dan tambalan terkadang membutuhkan banyak waktu dan uang. Hal ini terutama berlaku di perusahaan.
+
+### Kemampuan Solusi SaaS
+
+Platform SaaS memiliki beragam kemampuan. Apalagi jika digabungkan dengan penawaran cloud lainnya seperti IaaS (Infrastructure as a Service) dan PaaS (Platform as a Service).
+
+Solusi SaaS dapat digunakan untuk lingkungan ini dan, secara teori, menawarkan semua jenis layanan yang dapat dikembangkan sebagai aplikasi perangkat lunak yang dapat mencakup, namun tidak terbatas pada:
+
+* Aplikasi kantor
+* Email dan pesan instan
+* Media sosial
+* Layanan Fintech
+* Mengekspos  API Pihak Ketiga
+* Keamanan dan otentikasi
+* Pembelajaran mesin
+* Kecerdasan buatan
+* Layanan Lokasi
+* Layanan streaming dan pencarian data
+
+Saya pikir Anda akan setuju bahwa tidak banyak kendala dalam hal kemampuan produk perangkat lunak yang dikembangkan sebagai platform SaaS!
+
+### Kekurangan Platform SaaS
+1. KURANGNYA KONTROL DALAM PLATFORM ARSITEKTUR SAAS
+    
+    Karena aplikasi SaaS dihosting di lingkungan SaaS vendor, Anda hanya memiliki sedikit atau tidak ada kendali atas perangkat lunak yang Anda gunakan. 
+
+2. EKOSISTEM TERBATAS
+
+    Tidak dapat dipungkiri bahwa SaaS adalah tren yang berkembang sebagai saluran distribusi perangkat lunak. Meskipun demikian, masih banyak aplikasi yang tidak menawarkan versi yang dihosting.
+
+3. PERTUNJUKAN
+
+    Aplikasi internal, klien tebal, atau lokal akan selalu berjalan lebih cepat daripada produk yang dikirim melalui internet.
+
+4. MASALAH DATA
+    Saat memilih produk SaaS, dan misalnya, dengan munculnya GDPR, bisnis harus memberi perhatian khusus dalam hal di mana implementasi SaaS menyimpan data di cloud. Setiap yurisdiksi memiliki kebijakan dan tindakan legislatifnya sendiri ketika data sensitif sedang diproses atau disimpan.
+
+## Cara membangun aplikasi SaaS berbasis cloud
+
+Bisnis SaaS adalah industri yang berkembang sangat cepat yang menarik semakin banyak orang dan perusahaan. Organisasi-organisasi ini semakin banyak aplikasi mengambang di cloud. Penskalaan di cloud juga memiliki beberapa manfaat dan risiko penting.
+### Bagaimana cara memulai aplikasi SaaS?
+
+Bahasa pemrograman mana , database mana, perangkat lunak mana yang harus Anda pilih? Ada banyak pertanyaan yang perlu dijawab. Oleh karena itu saya mencoba untuk fokus pada hal-hal yang paling penting.
+
+Beberapa hal yang harus diperhtikan dulu adalah :
+* Bahasa pemrograman apa
+* Database mana
+* Perangkat lunak apa
+* dll
 
