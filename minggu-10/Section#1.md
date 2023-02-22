@@ -31,3 +31,7 @@
 ![image7.jpg](https://github.com/kareeems/tekn-cloud-computing/blob/main/minggu-10/image/image7.jpg)
 
 ![image8.jpg](https://github.com/kareeems/tekn-cloud-computing/blob/main/minggu-10/image/image8.jpg)
+
+menampilkan gambar image 25 
+
+![Install Git](../minggu-10/image/image25.jpg)
